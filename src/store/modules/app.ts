@@ -1,7 +1,7 @@
-import { Module, VuexModule, Mutation, Action} from 'vuex-module-decorators';
+import { Module, VuexModule, Mutation, Action } from 'vuex-module-decorators';
 import store from '@/store';
 
-@Module({namespaced: true, dynamic: true, name: 'app', store})
+@Module({ namespaced: true, dynamic: true, name: 'app', store })
 export class App extends VuexModule {
   public config: object = {};
 
